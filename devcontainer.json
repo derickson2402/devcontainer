@@ -1,0 +1,38 @@
+{
+	"name": "LaTeX",
+	"image": "qmcgaw/latexdevcontainer:latest-full",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"james-yu.latex-workshop",
+				// Other helpers
+				"shardulm94.trailing-spaces",
+				"stkb.rewrap", // rewrap comments after n characters on one line
+				// Other
+				"vscode-icons-team.vscode-icons",
+				"mhutchie.git-graph",
+				"nhoizey.gremlins"
+			],
+			"settings": {
+				// General settings
+				"files.eol": "\n",
+				// Latex settings
+				"latex-workshop.linting.chktex.enabled": true,
+				"latex-workshop.latex.clean.subfolder.enabled": true,
+				"latex-workshop.latex.autoClean.run": "onBuilt",
+				"editor.formatOnSave": true,
+				"files.associations": {
+					"*.tex": "latex"
+				},
+				"latex-workshop.latexindent.path": "latexindent",
+				"latex-workshop.latex.autoBuild.run": "onSave",
+				"latex-workshop.latexindent.args": [
+					"-c",
+					"%DIR%/",
+					"%TMPFILE%",
+					"-y=defaultIndent: '%INDENT%'"
+				]
+			}
+		}
+	}
+}
