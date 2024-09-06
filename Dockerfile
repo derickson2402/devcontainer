@@ -23,7 +23,3 @@ RUN pip install pdbp pytest pigar \
 WORKDIR /home/vscode
 RUN echo "source env/bin/activate" >> .bashrc \
 	&& echo "[safe]\n\tdirectory = /workspaces/*" >> .gitconfig
-
-# Install project pip modules
-COPY requirements.txt /tmp/docker/requirements.txt
-RUN pip install -r /tmp/docker/requirements.txt
