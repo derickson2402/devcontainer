@@ -17,7 +17,8 @@
 				"davidanson.vscode-markdownlint",
 				"yzhang.markdown-all-in-one",
 				"donjayamanne.python-extension-pack",
-				"oderwat.indent-rainbow"
+				"oderwat.indent-rainbow",
+				"sanaajani.taskrunnercode"
 			]
 		}
 	}
