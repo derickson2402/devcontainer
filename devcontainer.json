@@ -18,7 +18,8 @@
 				"yzhang.markdown-all-in-one",
 				"donjayamanne.python-extension-pack",
 				"oderwat.indent-rainbow",
-				"sanaajani.taskrunnercode"
+				"sanaajani.taskrunnercode",
+				"ms-python.pylint"
 			]
 		}
 	}
