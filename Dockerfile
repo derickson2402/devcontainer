@@ -16,10 +16,11 @@ RUN pip install pdbp pytest pigar \
 		wget \
 		curl \
 		vim \
-		default-jre
+		# needed for html5validator
+		default-jre \
+		sqlite3
 
-# Add python venv to bash and the git repo to safe list (avoids error that pops
-# up on first open)
+# There is an error that can pop up if a repo is created on the host and opened
+# in the tutorial. We tell git to trust all repositories to avoid the issue
 WORKDIR /home/vscode
-RUN echo "source env/bin/activate" >> .bashrc \
-	&& echo "[safe]\n\tdirectory = /workspaces/*" >> .gitconfig
+RUN echo "[safe]\n\tdirectory = /workspaces/*" >> .gitconfig
