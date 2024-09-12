@@ -4,6 +4,7 @@
 		"dockerfile": "Dockerfile",
 		"context": "../"
 	},
+	"postCreateCommand": "postCreateCommand.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
