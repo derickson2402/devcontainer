@@ -11,7 +11,8 @@
 				// Other
 				"vscode-icons-team.vscode-icons",
 				"mhutchie.git-graph",
-				"nhoizey.gremlins"
+				"nhoizey.gremlins",
+				"streetsidesoftware.code-spell-checker"
 			],
 			"settings": {
 				// General settings
