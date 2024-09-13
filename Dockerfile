@@ -21,6 +21,8 @@ RUN pip install pdbp pytest pigar \
 		sqlite3
 
 # There is an error that can pop up if a repo is created on the host and opened
-# in the tutorial. We tell git to trust all repositories to avoid the issue
+# in the tutorial. We tell git to trust all repositories to avoid the issue.
+# Also we will enable pretty sql printing
 WORKDIR /home/vscode
-RUN echo "[safe]\n\tdirectory = /workspaces/*" >> .gitconfig
+RUN echo "[safe]\n\tdirectory = /workspaces/*" >> .gitconfig \
+	&& echo ".mode column\n.header on" >> .sqliterc
