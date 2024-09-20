@@ -20,7 +20,8 @@
 				"donjayamanne.python-extension-pack",
 				"oderwat.indent-rainbow",
 				"sanaajani.taskrunnercode",
-				"ms-python.pylint"
+				"ms-python.pylint",
+				"beatzoid.http-status-codes"
 			]
 		}
 	}
