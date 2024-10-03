@@ -2,9 +2,10 @@
 	"name": "Python 3", 
 	"build": {
 		"dockerfile": "../Dockerfile",
-		"context": "../"
+		"context": "../",
+		"target": "develop"
 	},
-	"postCreateCommand": "../postCreateCommand.sh",
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -21,7 +22,8 @@
 				"oderwat.indent-rainbow",
 				"sanaajani.taskrunnercode",
 				"ms-python.pylint",
-				"beatzoid.http-status-codes"
+				"beatzoid.http-status-codes",
+				"redhat.vscode-yaml"
 			]
 		}
 	}
