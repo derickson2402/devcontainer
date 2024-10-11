@@ -23,7 +23,8 @@
 				"sanaajani.taskrunnercode",
 				"ms-python.pylint",
 				"beatzoid.http-status-codes",
-				"redhat.vscode-yaml"
+				"redhat.vscode-yaml",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	}
