@@ -8,5 +8,5 @@ All you need to do is add this repo as a git submodule, targetting the branch fo
 For example, to do python web development:
 
 ```bash
-git submodule add --branch lang/python/web https://github.com/derickson2402/devcontainer .devcontainer
+git submodule add --branch lang/golang https://github.com/derickson2402/devcontainer .devcontainer
 ```
