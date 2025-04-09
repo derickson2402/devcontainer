@@ -1,0 +1,12 @@
+{
+	"name": "Ubuntu C++",
+	"image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-24.04",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack"
+			]
+		}
+	},
+	"postCreateCommand": "chmod +x .devcontainer/postCreateCommand.sh && .devcontainer/postCreateCommand.sh"
+}
