@@ -1,9 +1,8 @@
 { 
 	"name": "Python 3", 
 	"build": {
-		"dockerfile": "../Dockerfile",
-		"context": "../",
-		"target": "develop"
+		"dockerfile": "./Dockerfile",
+		"context": "./"
 	},
 	"postCreateCommand": "chmod +x .devcontainer/postCreateCommand.sh && .devcontainer/postCreateCommand.sh",
 	"customizations": {

@@ -1,4 +1,7 @@
 #!/usr/bin/bash
+set -Eeuo pipefail
+set -x
+
 # If you want commands (like pip install -r requirements.txt) to run
 # automatically, then you will need to make a file `/postCreateCommand.sh` in
 # the root of your main repo (sibling of the `.devcontainer` folder). They will
